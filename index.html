@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Happy Birthday 🎉</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <style>
+    body {
+      background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center px-4">
+  <div class="bg-white shadow-2xl rounded-2xl p-6 sm:p-8 max-w-md w-full text-center">
+    <h1 class="text-3xl sm:text-4xl font-extrabold text-pink-500 mb-4">🎂 Happy Birthday! 🎂</h1>
+    <p class="text-base sm:text-lg text-gray-700 mb-6">
+      Wishing you a day filled with love laughter and everything that makes you smile(ako lahat yan)
+      May this year bring you happiness success and unforgettable memories(kasama ako dpat)
+    </p>
+
+    <div class="text-5xl sm:text-6xl mb-6">🎉🎈🎁</div>
+
+    <p class="text-gray-600 italic text-sm sm:text-base">
+      hbd pre
+    </p>
+
+    <button onclick="celebrate()" class="mt-6 px-6 py-3 bg-pink-500 text-white rounded-xl shadow hover:bg-pink-600 transition w-full sm:w-auto">
+      pindot mo pag bday mo 🎊
+    </button>
+
+    <p id="surprise" class="mt-4 text-lg sm:text-xl font-semibold text-purple-600 hidden">
+     Bday mo ba? Bday mo na ata. Hbd pre hahahahah
+<br>
+<br>
+<br>
+<br>
+Happy Birthday Baby!  Oh cake mo🎂🍰🧁 may strawberry cake ba? 
+<br>
+Happy birthday sa pinaka-sweet, pinaka-beautiful, at pinaka-special na tao sa buhay ko.
+Hindi ko alam kung paano ko sisimulan to kasi parang kulang lahat ng salita para maipaliwanag kung gaano kita kamahal at kung gaano ako kasaya na nandiyan ka sa buhay ko  oooooooo hehe di kita kinopya ahhh 
+<br>
+<br>
+Baby thank you sa pagmamahal, sa patience, sa pag-intindi sa’kin kahit minsan mahirap akong intindihin, at sa lahat ng maliliit at malalaking bagay na ginagawa mo para sa’kin. Every day na kasama kita, mas lalo kong narerealize kung gaano ako kaswerte. Hindi ko alam kung anong ginawa ko para maging deserving ng isang taong katulad mo pero araw-araw akong nagpapasalamat na ikaw ang baby ko
+<br><br>
+Kapag masaya ako gusto kong ikaw agad ang makausap kapag may problema ak ikaw ang naiisip kong takbuhan tapo.  Kapag iniisip ko future ko ikaw lang nakikita ko na kasama ko pati siguro anak natin haha tsaka isda at aso pala tapos duck? Hahaha ang hirap non
+<br><br>
+ gusto kong malaman mo na sobrang proud ako sayo proud ako sa lahat ng pinagdaanan mo at sa buong existence i dont think ive said it enough and i dont think you hear it enough pero ang talented mo talaga and i wish to be like you.You deserve so much happiness  love and success because angel ka talaga
+
+<br><br>
+I hope this year brings you everything you’ve been wishing and praying for I hope mas marami kang dahilan para ngumiti mas maraming magandang memories at mas maraming moments na magpapasaya sa puso mo
+<br>
+<br>
+And yung wish ko nong bday ko is to keep being by your side through all of it. Through the good days or the difficult days orthe boring days and the exciting days I want to celebrate ourwins together and gusto ko icomfort kita when you’re hurting and i wana make more memories with you.
+Sana itong letter na to mapapatuwa ka as much as non letter mo sakin pero siguro mas matutuwa ka kung surprise noh
+<br> 
+<br>
+I love you more than you’ll ever know, baby thank you for existing thank you for choosing me and thank you for making my life brighter just by being in it
+Happy birthday loveee/asawa/baby/cupcake/cutie pie/Alaina Albania
+Forever thankful for you forever kita issuport and forever in love with you
+<br>
+<br>
+Sobrang sweet nong playlist pero ang gaya gaya ko pag ginawa ko un kaya ito list ng mga bagay na inaassociate ko sayo or satin
+<br>
+Level 1 mga obvious
+Strawberry
+Matcha
+Hello kitty
+PINK
+Salamin
+Si zoe hahaha
+Snoopy
+Asawa
+67 legit ang cute mo pag nag667 ka ahha
+Adopt me
+Among us
+Level 2 
+Potato corner 
+Yung bag ko kasi pangharang natin un pag hahawakan ko kamay mo
+ Tiktok
+Mga corny na jokes
+Mga isda ko
+Isda in general pala
+Level 3 last level yung sobrang weird
+Bajaj kasi pag kasama kita don sobrang saya ko
+Mga stairs don sa peñafrancia hahaha napahiya ako sa harap mo kaya pag bumababa na ako sa stairs ang ingat ko na
+<br>
+<br>
+And lastly yung buhay ko. Kasi honestly pre every minute na kita iniisip like never kana nawawala kahit ang dami ko distractions ikaw lagi nasa isip ko. Gusto ko maganda future natin and sana maraming beses pa tayo magsasama.
+Happy birthdayyyy +1 sa age natin sana sa 18th mo tayo parin para pwede kita isayaw sa debut mo ay itong heart rin pala💗
+Sent
+Compose
+
+
+    </p>
+  </div>
+
+  <script>
+    function celebrate() {
+      document.getElementById('surprise').classList.remove('hidden');
+
+      confetti({
+        particleCount: 150,
+        spread: 70,
+        origin: { y: 0.6 }
+      });
+
+      setTimeout(() => {
+        confetti({ particleCount: 100, spread: 120, origin: { x: 0.1 } });
+        confetti({ particleCount: 100, spread: 120, origin: { x: 0.9 } });
+      }, 300);
+    }
+  </script>
+</body>
+</html>
+
